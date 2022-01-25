@@ -1,0 +1,25 @@
+.remove{
+    padding: 10px 20px;
+}
+
+.image img{
+    max-width: 800px;
+    width:30%;
+    display: block;
+  
+}
+
+.remove:hover{
+    background-color: gray;
+    color: blue;
+    cursor: pointer;
+}
+
+body{
+    max-width: 100%;
+    width: 1000px;
+    margin: 80px auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
