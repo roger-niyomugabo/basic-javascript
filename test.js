@@ -8,6 +8,9 @@ function setup(){
         button.parentElement.remove()
     })
     });
+    document.addEventListener("click", function(){
+    document.body.style.backgroundColor = "gray";
+    });
 }
 document.body.innerHTML=`
 <h2>REMOVE ANY IMAGE FROM THE GALLERY</h2>
@@ -15,26 +18,32 @@ document.body.innerHTML=`
 <img src="imges/image1.jpg" alt="first">
 <button class="remove">delete</button>
 </div>
+
  <div class="image">
 <img src="imges/image5.jpg" alt="second">
 <button class="remove">delete</button>
 </div>
+
  <div class="image">
 <img src="imges/image3.jpg" alt="third">
 <button class="remove">delete</button>
  </div>
+ 
  <div class="image">
 <img src="imges/image4.jpg" alt="fourth">
 <button class="remove">delete</button>
 </div>
+
 <div class="image">
 <img src="imges/image5.jpg" alt="second">
 <button class="remove">delete</button>
 </div>
+
 <div class="image">
 <img src="imges/image4.jpg" alt="fourth">
 <button class="remove">delete</button>
 </div>
+
 <div class="image">
 <img src="imges/image1.jpg" alt="first">
 <button class="remove">delete</button>
@@ -42,5 +51,5 @@ document.body.innerHTML=`
 
 setup();
 
-document.getElementsByClassName("remove")[0].click();
-console.log(document.body.innerHTML);
+//document.getElementsByClassName("remove")[0].click();
+//console.log(document.body.innerHTML);
