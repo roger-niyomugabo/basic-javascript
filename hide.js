@@ -5,9 +5,11 @@ let pres=document.getElementById("press");
 press.onclick=function(){
     if(hide.style.display==="none"){
     hide.style.display="block";
+     pres.innerHTML="show less";
    }
    else{
        hide.style.display="none";
+        pres.innerHTML="show more";
    }
 }
 
