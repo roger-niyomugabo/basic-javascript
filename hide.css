@@ -1,11 +1,19 @@
+*{
+    font-family: sans-serif;
+}
 #hide{
     display: none;
     background-color: #deb887;
     transition-duration: 1s;
+    margin: 0px 20px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
 }
 #press{
     border: 0;
-    margin: 5px 5px;
+    margin: 7px 20px;
     padding: 5px 5px;
     border-radius: 8px ;
 }
