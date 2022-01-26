@@ -1,0 +1,14 @@
+#hide{
+    display: none;
+    background-color: #deb887;
+    transition-duration: 1s;
+}
+#press{
+    border: 0;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border-radius: 8px ;
+}
+#press:hover{
+    cursor: pointer;
+}
