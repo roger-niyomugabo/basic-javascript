@@ -2,15 +2,22 @@ let hide=document.getElementById("hide");
 let pres=document.getElementById("press");
 
 
-press.onclick=function(){
+pres.onclick=function(){
     if(hide.style.display==="none"){
     hide.style.display="block";
-     pres.innerHTML="show less";
+    pres.innerHTML="show less";
+   
    }
    else{
        hide.style.display="none";
-        pres.innerHTML="show more";
+       pres.innerHTML="show more";
    }
+}
+pres.onmouseover=function(){
+    pres.style.backgroundColor="violet";
+}
+pres.onmouseout=function(){
+    pres.style.backgroundColor="whitesmoke";
 }
 
 // function myFunction() {
@@ -21,5 +28,8 @@ press.onclick=function(){
 //       hide.style.display ="none";
 //     }
 //   }
+
+    
+
 
     
