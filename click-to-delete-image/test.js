@@ -15,37 +15,37 @@ function setup(){
 document.body.innerHTML=`
 <h2>REMOVE ANY IMAGE FROM THE GALLERY</h2>
 <div class="image">
-<img src="imges/image1.jpg" alt="first">
+<img src="img/image1.jpg" alt="first">
 <button class="remove">delete</button>
 </div>
 
  <div class="image">
-<img src="imges/image5.jpg" alt="second">
+<img src="img/image5.jpg" alt="second">
 <button class="remove">delete</button>
 </div>
 
  <div class="image">
-<img src="imges/image3.jpg" alt="third">
+<img src="img/image3.jpg" alt="third">
 <button class="remove">delete</button>
  </div>
  
  <div class="image">
-<img src="imges/image4.jpg" alt="fourth">
+<img src="img/image4.jpg" alt="fourth">
 <button class="remove">delete</button>
 </div>
 
 <div class="image">
-<img src="imges/image5.jpg" alt="second">
+<img src="img/image5.jpg" alt="second">
 <button class="remove">delete</button>
 </div>
 
 <div class="image">
-<img src="imges/image4.jpg" alt="fourth">
+<img src="img/image4.jpg" alt="fourth">
 <button class="remove">delete</button>
 </div>
 
 <div class="image">
-<img src="imges/image1.jpg" alt="first">
+<img src="img/image1.jpg" alt="first">
 <button class="remove">delete</button>
 </div>`;
 
